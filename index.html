@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stefan Andonov</title>
+  <meta name="description" content="Stefan Andonov - embedded and systems engineer working in C/C++, close to the hardware." />
+  <link rel="canonical" href="https://stefan-andonov.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Stefan Andonov" />
+  <meta property="og:description" content="Embedded and systems engineer working in C/C++, close to the hardware." />
+  <meta property="og:url" content="https://stefan-andonov.com/" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <h1>Stefan Andonov</h1>
+      <p class="tagline">Embedded &amp; systems engineer &middot; C/C++, close to the hardware</p>
+      <p class="location">Based in the Netherlands</p>
+    </header>
+
+    <!--
+      REWRITE THIS BIO IN YOUR OWN WORDS.
+      Keep it short (2-4 sentences), first person, honest. This is your voice,
+      not generated text. The paragraph below is only a placeholder scaffold.
+    -->
+    <section class="about" aria-label="About">
+      <p>
+        I build software that runs on real hardware - device drivers, low-level
+        protocol work, and cross-domain debugging on embedded platforms. I like
+        working close to the metal and I am moving toward operating-system and
+        kernel-level engineering. <em>(Placeholder - rewrite in your own words.)</em>
+      </p>
+    </section>
+
+    <nav class="links" aria-label="Links">
+      <a href="https://github.com/manateeJr">GitHub</a>
+      <a href="https://www.linkedin.com/in/stefan-andonov-0317a922a">LinkedIn</a>
+      <a href="mailto:stefan.andonov@yahoo.com">Email</a>
+      <!-- Drop your CV PDF next to this file as cv.pdf, then uncomment: -->
+      <!-- <a href="cv.pdf">CV</a> -->
+    </nav>
+
+    <section class="projects" aria-label="Projects">
+      <h2>Projects</h2>
+
+      <article class="project">
+        <h3>Ultrack</h3>
+        <p>
+          Solo-built fitness-tracking app (iOS/Android), in production. Offline-first
+          React Native + Expo with an on-device SQLite sync engine against a Postgres
+          backend, plus full CI/CD and production operations.
+        </p>
+      </article>
+
+      <article class="project">
+        <h3>Vibecodium</h3>
+        <p>
+          Self-hosted cross-device control plane for persistent terminal coding-agent
+          sessions, managed from laptop and phone over a Tailscale mesh (systemd-scoped
+          sessions, memory-pressure-aware idle reaper, replayable soak harness).
+        </p>
+      </article>
+
+      <!--
+        Add the Rust/Linux kernel module here once it is public, e.g.:
+        <article class="project">
+          <h3>Rust Linux kernel module</h3>
+          <p>Out-of-tree character device written in Rust. <a href="URL">Source</a>.</p>
+        </article>
+      -->
+    </section>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Stefan Andonov</p>
+    </footer>
+  </main>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
